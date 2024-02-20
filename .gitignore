@@ -1,0 +1,6 @@
+venv/
+media
+**/__pycache__**
+db.sqlite3
+db - copia.sqlite3
+Restaurant/settings.py
