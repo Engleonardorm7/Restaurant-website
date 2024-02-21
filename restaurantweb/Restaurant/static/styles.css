@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero, .about, .book {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero h2, .about h2, .book h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cta {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Add more styles for images if needed */
+/* En styles.css u otro archivo CSS */
+.menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd; /* Línea divisoria entre elementos */
+    padding-bottom: 10px;
+}
+
+.menu-item a {
+    display: flex;
+    text-decoration: none;
+}
+
+.menu-image {
+    width: 100px; /* Tamaño de la imagen, ajusta según tus necesidades */
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.menu-item-info {
+    flex: 1;
+}
+
+.menu-price {
+    font-weight: bold;
+    color: #333;
+}
+/* En styles.css u otro archivo CSS */
+/* En tu archivo CSS (styles.css o similar) */
+
+.menu-item-detail {
+    text-align: center;
+    margin: 20px;
+}
+
+.menu-image-detail {
+    width: 300px; /* Ajusta este valor según lo pequeña que quieras la imagen */
+    height: auto; /* Mantén la proporción original de la imagen */
+    border-radius: 8px;
+    opacity: 0.9; /* Un valor entre 0 (completamente transparente) y 1 (completamente visible) */
+}
+
+.menu-price-detail {
+    font-size: 14px; /* Ajusta el tamaño del precio según tus preferencias */
+    font-weight: bold;
+    color: #333;
+}

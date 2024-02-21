@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ item.name }} - Menu{% endblock %}
+
+{% block content %}
+    <section class="menu-items-detail">
+        <div class="menu-item-detail">
+
+        <h2>{{ item.name }}</h2>
+        <img src="{{ item.image.url }}" alt="{{ item.name }}" class="menu-image-detail">
+        <p>{{ item.description }}</p>
+        <p class="menu-price-detail">Price: ${{ item.price }}</p>
+    </div>
+
+    </section>
+{% endblock %}
