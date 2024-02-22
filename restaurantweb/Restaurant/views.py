@@ -9,7 +9,7 @@ def home_view(request):
 
 
 def menu_view(request):
-    menu_items=MenuItem.objects.all()
+    menu_items=MenuItem.objects.all().order_by('name')
     context={'menu_items': menu_items}
     return render(request,'menu.html', context)
 
