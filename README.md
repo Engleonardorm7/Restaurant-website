@@ -1,6 +1,6 @@
 # My Restaurant Project
 
-![Restaurant Project](pictures/restaurant_project.png)
+![Restaurant Project](restaurant%20project.png)
 
 ## Overview
 
