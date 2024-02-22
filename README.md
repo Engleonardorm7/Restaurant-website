@@ -23,7 +23,7 @@ This project is a simple restaurant website built using Django. It provides user
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/my-restaurant-project.git
+   git clone https://github.com/Engleonardorm7/Restaurant-website
    cd my-restaurant-project
 
 
