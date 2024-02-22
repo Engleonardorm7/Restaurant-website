@@ -24,7 +24,7 @@ This project is a simple restaurant website built using Django. It provides user
 
    ```bash
    git clone https://github.com/Engleonardorm7/Restaurant-website
-   cd my-restaurant-project
+   cd restaurantweb
 
 
 2. Create and activate a virtual environment:
